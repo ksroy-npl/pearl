@@ -1,0 +1,22 @@
+{
+  "name": "pearl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.12",
+    "cross-env": "^7.0.3",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.5"
+  }
+}
