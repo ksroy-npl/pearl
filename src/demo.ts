@@ -3,7 +3,7 @@ import { EmailService } from './EmailService';
 const service = new EmailService();
 
 service.sendEmail({
-    to: 'kritantasasan@gmail.com',
+    to: 'your@example.com',
     subject: 'Demo',
     body: 'This is a demo email.',
     idempotencyKey: 'demo-key-1'
